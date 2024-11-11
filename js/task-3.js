@@ -1,7 +1,7 @@
 console.log("task 3");
 function filterArray(numbers, value) {
     const array = [];
-    for (let i = 0; i <= numbers.length; i++){
+    for (let i = 0; i < numbers.length; i++){
         if (numbers[i] > value) {
             array.push(numbers[i]);
         }
